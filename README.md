@@ -56,9 +56,10 @@ A simple Django-based Twitter clone that allows users to register, log in, post 
 
 Open your browser and navigate to http://127.0.0.1:8000.
 
-Project Structure
-php
-Copy code
+### Project Structure
+
+  ```bash
+
 app1/                # Main app folder
   ├── migrations/    # Database migration files
   ├── models.py      # Tweet model definition
@@ -70,27 +71,5 @@ app1/                # Main app folder
 twitter_clone/       # Project settings and configuration files
   ├── settings.py    # Django project settings
   └── urls.py        # Main URL configurations
-Routes and Views
-Home (/): Displays all tweets.
-Login (/login): Log in with your credentials.
-Logout (/logout): Log out of your account.
-Register (/register): Create a new account.
-Profile (/profile): View your profile.
-Create Tweet (/create): Create a new tweet.
-Edit Tweet (/show/<int:rid>): Edit an existing tweet.
-Delete Tweet (/delete/<int:rid>): Superuser can delete any tweet.
-Admin Controls
-Superusers (admins) can access the Django admin panel to manage users and tweets.
-Superusers can delete any tweet via the frontend using the delete button.
-Screenshots
-Home Page	Login Page
-Future Improvements
-Add likes and retweets functionality.
-Implement tweet commenting.
-Enhance the UI with CSS frameworks like Bootstrap or Tailwind CSS.
-Contributing
-Feel free to fork this repository, make updates, and submit pull requests!
 
-License
-This project is open-source and available under the MIT License.
 
