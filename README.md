@@ -31,33 +31,28 @@ A simple Django-based Twitter clone that allows users to register, log in, post 
    git clone https://github.com/sarfaraaz97/twitter-clone.git
    cd twitter-clone
 
-Create a virtual environment:
+2. **Create a virtual environment**:
 
-bash
-Copy code
-python -m venv env
-source env/bin/activate  # On Windows use: env\Scripts\activate
-Install the dependencies:
+   ```bash
+      python -m venv env
+      source env/bin/activate
+   
+3. **Install the dependencies**:
 
-bash
-Copy code
-pip install -r requirements.txt
-Migrate the database:
+   ```bash
+    pip install -r requirements.txt
+   
+4. **Migrate the database**:
 
-bash
-Copy code
-python manage.py migrate
-Create a superuser (admin account):
+   ```bash
+    python manage.py migrate
 
-bash
-Copy code
-python manage.py createsuperuser
-Run the development server:
+5. **Run the development server**:
 
-bash
-Copy code
-python manage.py runserver
-Access the project:
+   ```bash
+    python manage.py runserver
+   
+### Access the project:
 
 Open your browser and navigate to http://127.0.0.1:8000.
 
