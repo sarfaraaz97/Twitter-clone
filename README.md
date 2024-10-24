@@ -1,30 +1,36 @@
 # Twitter Clone 🐦
-A simple Django-based Twitter clone that allows users to register, log in, post tweets, and view or delete them. Superusers have admin controls to delete any tweet.
+
+A simple Django-based Twitter clone that allows users to register, log in, post tweets, and view or delete them. Superusers have admin controls to delete any tweet. 
 
 ## Features
-### User Authentication:
-Login, Logout, and Registration functionality.
-User passwords are securely hashed.
-Tweet Functionality:
 
-View all tweets on the home page.
-Create new tweets (requires login).
-Edit and update tweets.
-Admin can delete any tweet.
-Profile Management:
+- **User Authentication**: 
+  - Login, Logout, and Registration functionality.
+  - User passwords are securely hashed.
+  
+- **Tweet Functionality**:
+  - View all tweets on the home page.
+  - Create new tweets (requires login).
+  - Edit and update tweets.
+  - Admin can delete any tweet.
 
-Users have their own profiles with role-based redirection (admin vs regular user).
-Tech Stack
-Backend: Django
-Frontend: HTML, CSS (with Django templates)
-Database: SQLite (default with Django)
-Installation and Setup
-Clone the repository:
+- **Profile Management**:
+  - Users have their own profiles with role-based redirection (admin vs regular user).
 
-bash
-Copy code
-git clone https://github.com/yourusername/twitter-clone.git
-cd twitter-clone
+## Tech Stack
+
+- **Backend**: Django
+- **Frontend**: HTML, CSS (with Django templates)
+- **Database**: SQLite (default with Django)
+
+## Installation and Setup
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/sarfaraaz97/twitter-clone.git
+   cd twitter-clone
+
 Create a virtual environment:
 
 bash
