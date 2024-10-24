@@ -1,9 +1,8 @@
-Twitter Clone 🐦
+# Twitter Clone 🐦
 A simple Django-based Twitter clone that allows users to register, log in, post tweets, and view or delete them. Superusers have admin controls to delete any tweet.
 
-Features
-User Authentication:
-
+## Features
+### User Authentication:
 Login, Logout, and Registration functionality.
 User passwords are securely hashed.
 Tweet Functionality:
