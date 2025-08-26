@@ -77,9 +77,9 @@ WSGI_APPLICATION = 'Sessionproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'SAFFU',
-        'USER': 'root',
-        'PASSWORD': 'saffu7396',
+        'NAME': ,
+        'USER': '',
+        'PASSWORD': ',
         'HOST': 'localhost',
         'PORT': '3306',
         'OPTIONS': {
